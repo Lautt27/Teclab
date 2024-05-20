@@ -1,2 +1,3 @@
 # Teclab
-Hola a todos! Aca van a estar mis proyectos realizados para TECLAB...
+Hi everyone! Here Im going to leave all my completed TECLAB projects.
+Hola a todos! aca voy a dejar todos mis proyectos realizados de TECLAB.
