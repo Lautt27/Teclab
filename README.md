@@ -1,4 +1,4 @@
 # Teclab
-Hi everyone! Here Im going to leave all my completed TECLAB projects.
+Hi everyone! Here I will list all my projects completed at Instituto Técnico Superior TECLAB.
 -
-Hola a todos! aca voy a dejar todos mis proyectos realizados de TECLAB.
+Hola a todos! aca voy a dejar todos mis proyectos realizados en el Instituto Técnico Superior TECLAB.
