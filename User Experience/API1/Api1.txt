@@ -1,0 +1,10 @@
+El objetivo del negocio es una cartelera de espectáculos que están disponibles en buenos aires al parecer.
+
+A medida que investigamos podemos notar los siguientes errores:
+- La cartelera no abarca todo el ancho de la página y tiene scroll infinito, por lo que resulta molesto.
+- Barra de búsqueda de header poco practica, al no insertar ningun campo en "Que buscas?" me pone un error de "Por favor, ingresa su nombre."
+- Icono de búsqueda de la barra del menú cartelera inutilizable y filtros poco prácticos como así también poco estéticos.
+- En cuanto a algunas secciones del menú desplegable, tienen algunas páginas antiguas y otras modernas, por lo que el diseño en general varia y no se ve bien visualmente.
+
+Como mejoraría la página:
+- Lo que haría para mejor la página seria primero investigar los problemas como usuario (Design thinking), después resolvería el problema construyendo una solución correcta y satisfactoria (Lean) y, por último, intentaría mejorar esa solución.
