@@ -1,3 +1,4 @@
+-- Crear tabla de lectores
 CREATE TABLE lectores(
 	id serial,
 	nombre varchar(100),
@@ -9,6 +10,7 @@ CREATE TABLE lectores(
 
 SELECT * FROM lectores;
 
+-- Insertar valores a tabla lectores
 INSERT INTO lectores (nombre, apellido, email, nacimiento) values 
   ('Juan Alberto', 'Cortéz', 'juancortez@gmail.com', '20/06/1983');
 
@@ -39,6 +41,7 @@ INSERT INTO lectores (nombre, apellido, email, nacimiento) values
 INSERT INTO lectores (nombre, apellido, email, nacimiento) values 
   ('Juan Ignacio', 'Altarez', 'juanaltarez.223@yahoo.com', '24/08/1975');
 
+-- Crear tabla de libros
 CREATE TABLE libros(
 	id serial,
 	nombre varchar(100),
@@ -50,6 +53,7 @@ CREATE TABLE libros(
 
 SELECT * FROM libros;
 
+-- Insertar valores a tabla libros
 INSERT INTO libros (nombre, editorial, autor, isbn) values
   ('Cementerio de animales', 'Ediciones de Mente', 'Stephen King', '4568874');
 
