@@ -1,1 +1,57 @@
+body {
+    text-align: center;
+    margin-top: 10%;
+}
 
+img {
+    width: 150px;
+    height: 175px;
+    align-content:center;
+}
+
+label {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+btn1 {
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    margin-top: 1%;
+}
+
+.a {
+    color: white;
+    text-decoration: none;
+}
+
+btn {
+    background-color: red;
+    border-radius: 15px;
+    margin-top: 1%;
+}
+
+header {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .img_tienda img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
