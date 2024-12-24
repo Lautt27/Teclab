@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+    <title>Lista de Productos</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./assets/img/store.jpg" alt="Imagen Tienda">
+        </div>
+    </header>
+    <main>
+        <h1>Lista de Productos</h1>
+        <table class="product-table">
+            <thead>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Producto</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                    <th>Categorías</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+                // Suponiendo que $lp contiene los productos
+                foreach ($lp as $producto) {
+                    // Obtener el nombre de la categoría mediante su ID
+                    $cat = new Categorias($producto['categoria_id']);
+                    ?>
+                    <tr>
+                        <td>
+                            <!-- Ajusta la ruta de la imagen aquí -->
+                            <img src="../assets/img/<?php echo $producto['imagen']; ?>" alt="<?php echo $producto['nombre_producto']; ?>" width="100">
+                        </td>
+                        <td><?php echo $producto['nombre_producto']; ?></td>
+                        <td><?php echo $producto['descripcion']; ?></td>
+                        <td><?php echo number_format($producto['precio'], 2, ',', '.'); ?></td>
+                        <td>
+                            <?php echo $cat->nombre; ?>
+                        </td>
+                    </tr>
+                <?php } ?>
+            </tbody>
+        </table>
 
+        <button class="btn1">
+            <a href="./backend/productos.php?add" class="a">Agregar Productos</a>
+        </button>
+        <button class="btn2">
+            <a href="./backend/categorias.php?add" class="a">Agregar Categoría</a>
+        </button>
+    </main>
+</body>
+</html>

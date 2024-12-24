@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Lista de Categorias</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../assets/css/estilos.css"/>
+    </head>
+    <body>
+        <center>
+            <h1 class="title">Lista de Categorias</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>NOMBRE</th>                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($lista_ctg as $listaCategorias) { ?>
+                    <tr>
+                        <td><?php echo $listaCategorias['id'] ?></td>
+                        <td><?php echo $listaCategorias['nombre_categoria'] ?></td>
+                    </tr>
+                    <?php } ?>
+                </tbody>
+            </table>
+            <a href="../categorias.php?add">Agregar</a>
+        </center>
+    </body>
+</html>
